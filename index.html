@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alex Wolin — 30·60·90 Plan</title>
+  <meta name="description" content="A concise 30-60-90 day plan showcasing GTM focus, deployed via GitHub + Vercel." />
+  <meta property="og:title" content="Alex Wolin — 30·60·90 Plan" />
+  <meta property="og:description" content="A crisp GTM plan and proof I ship." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚀%3C/text%3E%3C/svg%3E">
+  <style>
+    :root{--bg:#0b0c10;--panel:#111319;--muted:#7c8aa5;--fg:#e8ecf1;--accent:#60a5fa;--radius:16px;--shadow:0 6px 24px rgba(0,0,0,.25)}
+    *{box-sizing:border-box} body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+    .wrap{max-width:980px;margin:0 auto;padding:24px}
+    header{padding:72px 0 16px;text-align:center}
+    .kicker{letter-spacing:.12em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+    h1{font-size:44px;line-height:1.1;margin:.3em 0} .lead{color:#cbd5e1;max-width:680px;margin:8px auto 0}
+    .cta{margin:20px auto 0;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .btn{background:var(--accent);color:#06111a;border:none;padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:600;box-shadow:var(--shadow)}
+    .btn.ghost{background:transparent;color:var(--fg);border:1px solid #2a3342}
+    main{padding:32px 0 60px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
+    .card{background:var(--panel);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);border:1px solid #1b2230}
+    h2{font-size:20px;margin:0 0 8px} h3{font-size:16px;margin:0 0 8px;color:var(--muted);font-weight:600}
+    ul{margin:0;padding-left:18px} li{margin:6px 0}
+    .section{margin:28px 0} .panel{background:var(--panel);border-radius:var(--radius);padding:20px;border:1px solid #1b2230}
+    footer{padding:28px 0;color:var(--muted);text-align:center;border-top:1px solid #1b2230}
+    @media print{body{background:white;color:black}.card,.panel{box-shadow:none;border:1px solid #ddd}.btn,.cta{display:none}}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}h1{font-size:34px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">VP of Sales • GTM Operator</div>
+      <h1>30·60·90 Day Plan</h1>
+      <p class="lead">Foundations → early wins → repeatable motion. Built in Cursor, versioned on GitHub, deployed on Vercel.</p>
+      <div class="cta">
+        <a class="btn" href="#plan">View the plan</a>
+        <a class="btn ghost" href="mailto:alex.wolin@gmail.com">Contact</a>
+      </div>
+    </header>
+    <main id="plan">
+      <div class="section">
+        <div class="grid">
+          <div class="card">
+            <h2>First 30 Days — Discover & Calibrate</h2>
+            <h3>Objectives</h3>
+            <ul>
+              <li>ICP & segmentation review; confirm stage exit criteria</li>
+              <li>Baseline metrics: funnel, ACV, cycle, win/loss, forecast</li>
+              <li>Deal reviews on top 10; red‑team risks & next actions</li>
+              <li>Map GTM stack (CRM, intent, enrichment, enablement)</li>
+            </ul>
+            <h3>Outputs</h3>
+            <ul><li>GTM scorecard & weekly operating cadence</li><li>1‑page territory & account plan template</li></ul>
+          </div>
+          <div class="card">
+            <h2>Days 31–60 — Prove & Enable</h2>
+            <h3>Objectives</h3>
+            <ul>
+              <li>Message testing; refine talk tracks & MEDDICC fields</li>
+              <li>Enablement: discovery guide, call coaching rubric, compete notes</li>
+              <li>Pipeline hygiene sprint; land 1–2 quick wins</li>
+              <li>Hiring plan: scorecards & interview loop</li>
+            </ul>
+            <h3>Outputs</h3>
+            <ul><li>Weekly win/loss readout</li><li>Enablement hub (scripts, assets, snippets)</li></ul>
+          </div>
+          <div class="card">
+            <h2>Days 61–90 — Scale & Systematize</h2>
+            <h3>Objectives</h3>
+            <ul>
+              <li>Standardize stages; forecast & QBR rhythm</li>
+              <li>Partner motion & ABM experiment on top 50 accounts</li>
+              <li>Comp/territory recs aligned to model</li>
+              <li>Operational KPIs: coverage, pipeline health, conversion</li>
+            </ul>
+            <h3>Outputs</h3>
+            <ul><li>Board‑ready GTM dashboard</li><li>H2 plan: hiring, targets, enablement roadmap</li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="panel">
+          <h2>How this was built</h2>
+          <ul>
+            <li>Authored in <strong>Cursor</strong> (single <code>index.html</code>)</li>
+            <li>Committed in <strong>GitHub</strong> (web editor)</li>
+            <li>Auto‑deployed by <strong>Vercel</strong></li>
+          </ul>
+          <p style="margin-top:8px;color:#7c8aa5">Tip: Print to PDF from your browser for a shareable doc.</p>
+        </div>
+      </div>
+    </main>
+    <footer>© Alex Wolin • Deployed on Vercel</footer>
+  </div>
+</body>
+</html>
